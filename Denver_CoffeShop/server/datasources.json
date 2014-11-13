@@ -1,0 +1,23 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Denver_Mongo": {
+    "name": "Denver_Mongo",
+    "connector": "mongodb"
+  },
+  "demo": {
+    "name": "demo",
+    "connector": "mysql"
+  },
+  "Denver_MySQL": {
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "database": "demo",
+    "password": "L00pBack",
+    "name": "Denver_MySQL",
+    "connector": "mysql",
+    "user": "demo"
+  }
+}

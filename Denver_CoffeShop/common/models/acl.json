@@ -1,0 +1,119 @@
+{
+  "name": "Acl",
+  "idInjection": false,
+  "mysql": {
+    "schema": "demo",
+    "table": "ACL"
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "NO"
+      }
+    },
+    "model": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "model",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "property": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "property",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "accesstype": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "accessType",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "permission": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "permission",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "principaltype": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "principalType",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "principalid": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "principalId",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

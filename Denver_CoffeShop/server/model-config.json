@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "CoffeeShop": {
+    "dataSource": "Denver_Mongo",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "Denver_Mongo",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "Denver_Mongo",
+    "public": true
+  },
+  "Coffee": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Acl": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Accesstoken": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Rolemapping": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Car": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Inventory": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Location": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Note": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Restaurant": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "Tester": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  },
+  "MenuItem": {
+    "dataSource": "Denver_MySQL",
+    "public": true
+  }
+}

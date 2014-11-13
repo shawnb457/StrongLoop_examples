@@ -1,0 +1,134 @@
+{
+  "name": "Car",
+  "idInjection": false,
+  "mysql": {
+    "schema": "demo",
+    "table": "car"
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "required": false,
+      "length": 765,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "varchar",
+        "dataLength": 765,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      }
+    },
+    "vin": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "vin",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "year": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "year",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "YES"
+      }
+    },
+    "make": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "make",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "model": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "model",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "image": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "image",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "carclass": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "carClass",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    },
+    "color": {
+      "type": "String",
+      "required": false,
+      "length": 1536,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "color",
+        "dataType": "varchar",
+        "dataLength": 1536,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
